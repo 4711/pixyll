@@ -4,7 +4,7 @@ summary: Markdown is probably the easiest markup format to get started using.
 published: true
 ---
 
-[Adam's P excellent Markdown Cheatsheet](https://www.google.comhttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Adam's P excellent Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## An h2 header
 
