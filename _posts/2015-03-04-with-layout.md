@@ -32,11 +32,12 @@ Unicode is supported. ☺
 
 Tables can look like this:
 
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
+Name | Lunch order | Spicy | Owes
+------- | ---------------- | ---------- | ---------:
+Joan | saag paneer | medium | $11
+Sally | vindaloo | mild | $14
+Erin | lamb madras | HOT | $5
+
 
 Table: Shoes, their sizes, and what they're made of
 
