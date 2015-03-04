@@ -1,5 +1,6 @@
 ---
 layout: post
+summary: Markdown is probably the easiest markup format to get started using.
 published: true
 ---
 
