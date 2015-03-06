@@ -30,7 +30,7 @@ permalink: /stats/
           legend: { position: 'bottom' }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var chart = new google.visualization.Bar(document.getElementById('curve_chart'));
 
         chart.draw(data, options);
       }
