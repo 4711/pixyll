@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Pixyll
+title: Firewall Traffic
 permalink: /stats/
 ---
 
@@ -25,7 +25,7 @@ permalink: /stats/
         ]);
 
         var options = {
-          title: 'Company Performance',
+          title: 'Firewall Traffic',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
@@ -35,8 +35,6 @@ permalink: /stats/
         chart.draw(data, options);
       }
 </script>
-
-### Firewall Traffic
 
 <div id="curve_chart" style="width: auto; max-width: 100%; height: 600px;"></div>
 
