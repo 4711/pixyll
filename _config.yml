@@ -1,13 +1,13 @@
 # Site settings
 title:       Pixyll
 email:       your_email@example.com
-author:      John Otander
+author:      Chris Frei
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     "/pixyll"
 url:         "http://4711.github.io"
 
 # Google analytics
-google_analytics: UA-53548208-1
+google_analytics: 
 
 # Optional features
 animated:           true
@@ -38,6 +38,13 @@ paginate:     3
 sass:
   compressed: true
 
+# Exclude these files
+exclude:
+ - "node_modules"
+ - "package.json"
+ - "README.md"
+ - "Gemfile"
+ - "gulpfile.js"
 
 prose:
   rooturl: '_posts'
