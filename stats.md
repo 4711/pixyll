@@ -8,8 +8,8 @@ permalink: /stats/
           src="https://www.google.com/jsapi?autoload={
             'modules':[{
               'name':'visualization',
-              'version':'1',
-              'packages':['corechart']
+              'version':'1.1',
+              'packages':['bar']
             }]
           }"></script>
 
