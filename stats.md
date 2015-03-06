@@ -40,6 +40,8 @@ permalink: /stats/
 
 <div id="curve_chart" style="width: 900px; height: 500px"></div>
 
+Last updated {{ page.time }}
+
 SQL Select
 
     select 
