@@ -25,7 +25,7 @@ permalink: /stats/
         ]);
 
         var options = {
-          title: 'Firewall Traffic',
+          title: 'Daily Traffic',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
