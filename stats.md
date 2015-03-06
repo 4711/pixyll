@@ -26,7 +26,8 @@ permalink: /stats/
 
         var options = {
           title: 'Daily Traffic',
-          //curveType: 'function',
+          //curveType: 'fuction',
+          bar: { groupWidth: '75%' },
           isStacked: true,
           legend: { position: 'bottom' }
         };
