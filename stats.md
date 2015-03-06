@@ -18,9 +18,9 @@ permalink: /stats/
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Day', 'Traffic In [MB]', 'Traffic Out [MB]'],
+          ['Day', 'Traffic In [GB]', 'Traffic Out [GB]'],
 {% for t in site.data.traffic %}
-['{{ t.logday }}', {{ t.mb_in }}, {{ t.mb_out }}],  
+['{{ t.logday }}', {{ t.gb_in }}, {{ t.gb_out }}],  
 {% endfor %}
         ]);
 
