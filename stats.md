@@ -38,22 +38,7 @@ permalink: /stats/
 
 ### Firewall Traffic
 
-<div id="curve_chart" style="width: 900px; height: 500px"></div>
+<div id="curve_chart" style="  width: auto; max-width: 100%;"></div>
 
 Last updated: {{ site.time }}
-
-SQL Select
-
-    select 
-      '- { logday: ' || logday ||
-      ', pkt_in: '   || sum(raw_in_pktcount) ||
-      ', pkt_out: '  || sum(raw_out_pktcount) ||
-      ', mb_in: '    || to_char(sum(raw_in_pktlen)  / 1024 / 1024)  ||
-      ', mb_out: '   || to_char(sum(raw_out_pktlen) / 1024 / 1024)  || 
-      ' }' as yaml
-    from accounting 
-    where logday > current_date - interval '10' day
-    group by logday
-    order by logday;
-
 
