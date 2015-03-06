@@ -38,7 +38,7 @@ permalink: /stats/
 
 ### Firewall Traffic
 
-<div id="curve_chart" style="width: auto; max-width: 100%; height: 500px;"></div>
+<div id="curve_chart" style="width: auto; max-width: 100%; height: 600px;"></div>
 
 Last updated: {{ site.time }}
 
