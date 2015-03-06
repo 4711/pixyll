@@ -20,7 +20,7 @@ permalink: /stats/
         var data = google.visualization.arrayToDataTable([
           ['Day', 'Traffic In [GB]', 'Traffic Out [GB]'],
 {% for t in site.data.traffic %}
-['{{ t.logday }}', {{ t.gb_in }}, {{ t.gb_out }}],  
+['{{ t.logday }}', {{ t.gb_in | round: 2 }}, {{ t.gb_out | round: 2 }}],  
 {% endfor %}
         ]);
 
