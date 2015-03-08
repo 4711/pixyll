@@ -15,7 +15,7 @@ permalink: /links/
     <div class="p1 clearfix">
       <p class="left m0">{{ l.summary }}</p>
     </div>
-  </div>
+  </a>
 </div>
 {% endfor %}
 
