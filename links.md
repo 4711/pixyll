@@ -16,4 +16,4 @@ permalink: /links/
 
 
 
-Last updated: {{ site.time }}
+Last updated: {{ site.time | date_to_string }} }}
