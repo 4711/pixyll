@@ -9,7 +9,7 @@ permalink: /links/
 <div class="md-col-6 mb2">
   <div class="overflow-hidden bg-white border rounded">
     <div class="p1 white bg-blue">
-      <h4 class="left">{{ l.title }}</h4>
+      <h4 class="m2 left">{{ l.title }}</h4>
       <span class="right inline-block px1 white bg-gray rounded">{{ l.tags }}</span>
     </div>
     <div class="p1">
