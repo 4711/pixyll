@@ -6,7 +6,7 @@ permalink: /links/
 
 
 {% for l in site.data.links %}
-  * l.title   
+  * {{ l.title }}  
 {% endfor %}
 
 
