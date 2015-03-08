@@ -13,7 +13,7 @@ permalink: /links/
       <span class="right inline-block px1 white bg-gray rounded">{{ l.tags }}</span>
     </div>
     <div class="p1 clearfix">
-      <p class="m0">{{ l.summary }}</p>
+      <p class="left m0">{{ l.summary }}</p>
     </div>
   </div>
 </div>
