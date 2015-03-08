@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Interesting links
+title: Interesting Links
 permalink: /links/
 ---
-
 
 {% for l in site.data.links %}
 <div class="md-col-6 mb2">
