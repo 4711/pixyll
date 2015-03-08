@@ -7,7 +7,7 @@ permalink: /links/
 
 {% for l in site.data.links %}
   * l.title   
-{% endfor 
+{% endfor %}
 
 
 Last updated: {{ site.time }}
