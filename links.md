@@ -14,9 +14,6 @@ permalink: /links/
     <div class="p1">
       <p class="m0">{{ l.summary }}</p>
     </div>
-    <div class="p1 bg-darken-1">
-      <span class="h6 bold inline-block px1 white bg-blue rounded">{{ l.tags }}</span>
-    </div>
   </div>
 </div>
 {% endfor %}
