@@ -7,8 +7,8 @@ permalink: /links/
 <ul>
   {% for l in site.data.links %}
     <li>
-      <a href="{{ post.link }}">{{ post.title }}</a>
-      <p>{{ post.summary }}</p>
+      <a href="{{ l.link }}">{{ l.title }}</a>
+      <p>{{ l.summary }}</p>
     </li>
   {% endfor %}
 </ul>
