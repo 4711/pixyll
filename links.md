@@ -17,7 +17,7 @@ permalink: /links/
 Last updated: {{ site.time | date_to_string }}
 
 {% for l in site.data.links %}
-<div class="md-col-6">
+<div class="md-col-6 mb2">
   <div class="overflow-hidden bg-white border rounded">
     <div class="p2 white bg-blue">
       <h1 class="h3 m0">{{ l.title }}</h1>
@@ -26,7 +26,7 @@ Last updated: {{ site.time | date_to_string }}
       <p class="m0">{{ l.summary }}</p>
     </div>
     <div class="p2 bg-darken-1">
-      Tags: <p class="m0 h5">{{ l.tags }}</p>
+      <span class="bold inline-block px1 white bg-blue rounded">{{ l.tags }}</span>
     </div>
   </div>
 </div>
