@@ -19,10 +19,8 @@ permalink: /stats/
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Day', 'Traffic In [GB]', 'Traffic Out [GB]'],
-{% for t in site.data.traffic %}
-['{{ t.logday }}', {{ t.gb_in | round: 2 }}, {{ t.gb_out | round: 2 }}],  
-{% endfor %}
-        ]);
+{% for t in site.data.traffic %}['{{ t.logday }}', {{ t.gb_in | round: 2 }}, {{ t.gb_out | round: 2 }}], {% endfor %}
+          ]);
 
         var options = {
           title: 'Daily Traffic',
