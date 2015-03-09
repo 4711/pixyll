@@ -33,6 +33,7 @@ permalink: /stats/
 
 <div id="barchart_material" style="width: 900px; height: 500px;"></div>
 
+{% assign day = site.time | date: "%-d" %}
 {% assign m = site.time | date: "%-m" %}
 {% case m %}
   {% when '1' %}{% assign month = 'Januar' %}
@@ -49,6 +50,6 @@ permalink: /stats/
   {% when '12' %}{% assign month = 'Dezember' %}
 {% endcase %}
 
-<small>Last updated: {{ month }} {{ site.time | date: '%d, %H:%m' }}</small>
+<small>Last updated: {{ day }} {{ month }} {{ site.time | date: ', %H:%m' }} </small>
 
 
