@@ -43,7 +43,7 @@ Last updated: {{ site.time }}
 
 -----
 
-<script type="text/javascript"
+<script type="text/javascript">
 function drawVisualization() {
   // Create and populate the data table.
   var data = google.visualization.arrayToDataTable([
@@ -66,6 +66,6 @@ function drawVisualization() {
             isStacked: true}
       );
 }
-></script>
+</script>
 
 <div id="visualization" style="width: auto; max-width: 100%; height: 600px;"></div>
