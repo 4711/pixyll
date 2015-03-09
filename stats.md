@@ -73,7 +73,8 @@ Last updated: {{ site.time }}
         chart.draw(data, options);
       }
     </script>
-    <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+
+<div id="barchart_material" style="width: 900px; height: 500px;"></div>
 
 -----
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -105,7 +106,9 @@ Last updated: {{ site.time }}
         // Set chart options
         var options = {'title':'How Much Pizza I Ate Last Night',
                        'width':400,
-                       'height':300};
+                       'height':300, 
+                        isStacked: true
+        };
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
