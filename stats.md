@@ -58,6 +58,7 @@ Last updated: {{ site.time }}
             title: 'Company Performance',
             subtitle: 'Sales, Expenses, and Profit: 2014-2017',
           },
+          isStacked: true,
           bars: 'horizontal' // Required for Material Bar Charts.
         };
 
