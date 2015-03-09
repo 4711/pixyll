@@ -10,4 +10,9 @@
   url: https://github.com/peter-murach/github
   tags: github api ruby
   summary: A Ruby client for the official GitHub API.
+- title: An Embeddable JavaScript Markdown Editor
+  url: http://epiceditor.com/
+  tags: javascript markdown editor
+  summary: EpicEditor is an embeddable JavaScript Markdown editor with split fullscreen editing, live previewing, automatic draft saving, offline support, and more. 
+
 
