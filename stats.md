@@ -33,6 +33,6 @@ permalink: /stats/
 
 <div id="barchart_material" style="width: 900px; height: 500px;"></div>
 
-<small>Last updated: {{ site.time }}</small>
+<small>Last updated: {{ site.time | date: '%B %d, %Y %H %m' }}</small>
 
 
