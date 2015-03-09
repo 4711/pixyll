@@ -2,7 +2,12 @@
   url: https://mathiasbynens.be/notes/html5-levels
   tags: html5
   summary: An introductory talk on HTML5 for the latest Adobe User Group Belgium 
-- title: Jekyll Date Formatting Examples
+- title: Everything you wanted to know about Jekyll date formatting but were afraid to ask.
   url: http://alanwsmith.com/jekyll-liquid-date-formatting-examples
   tags: jekyll liquid 
   summary: These examples provide tested code snippets for displaying several date formats on a Jekyll site.
+- title: Jekyll Date Formatting Examples
+  url: https://github.com/peter-murach/github
+  tags: github api ruby
+  summary: A Ruby client for the official GitHub API.
+
