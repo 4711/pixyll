@@ -33,23 +33,22 @@ permalink: /stats/
 
 <div id="barchart_material" style="width: 900px; height: 500px;"></div>
 
-<small>Last updated: {{ site.time | date: '%d' }}
 {% assign m = site.time | date: "%-m" %}
 {% case m %}
-  {% when '1' %}Januar
-  {% when '2' %}Februar
-  {% when '3' %}M&auml;rz
-  {% when '4' %}April
-  {% when '5' %}Mai
-  {% when '6' %}Juni
-  {% when '7' %}Juli
-  {% when '8' %}August
-  {% when '9' %}September
-  {% when '10' %}Oktober
-  {% when '11' %}November
-  {% when '12' %}Dezember
+  {% when '1' %}{% assign month = 'Januar' %}
+  {% when '2' %}{% assign month = 'Februar' %}
+  {% when '3' %}{% assign month = 'M&auml;rz' %}
+  {% when '4' %}{% assign month = 'April' %}
+  {% when '5' %}{% assign month = 'Mai' %}
+  {% when '6' %}{% assign month = 'Juni' %}
+  {% when '7' %}{% assign month = 'Juli' %}
+  {% when '8' %}{% assign month = 'August' %}
+  {% when '9' %}{% assign month = 'September' %}
+  {% when '10' %}{% assign month = 'Oktober' %}
+  {% when '11' %}{% assign month = 'November' %}
+  {% when '12' %}{% assign month = 'Dezember' %}
 {% endcase %}
 
-{{ site.time | date: '%H:%m' }}</small>
+<small>Last updated: {{ month }} {{ site.time | date: '%d, %H:%m' }}</small>
 
 
