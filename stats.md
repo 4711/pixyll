@@ -46,7 +46,7 @@ Last updated: {{ site.time }}
 <script type="text/javascript">
 function drawVisualization() {
   // Create and populate the data table.
-  var data = google.visualization.arrayToDataTable([
+  var data2 = google.visualization.arrayToDataTable([
     ['Year', 'Austria', 'Bulgaria', 'Denmark', 'Greece'],
     ['2003',  1336060,    400361,    1001582,   997974],
     ['2004',  1538156,    366849,    1119450,   941795],
@@ -58,7 +58,7 @@ function drawVisualization() {
 
   // Create and draw the visualization.
   new google.visualization.BarChart(document.getElementById('bc')).
-      draw(data,
+      draw(data2,
            {title:"Yearly Coffee Consumption by Country",
             width:600, height:400,
             vAxis: {title: "Year"},
