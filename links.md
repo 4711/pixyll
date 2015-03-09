@@ -4,6 +4,20 @@ title: Interesting Links
 permalink: /links/
 ---
 
+<ul>
+  {% for l in site.data.links %}
+    <li>
+      <a href="{{ l.url }}">{{ l.title }}
+        <p>{{ l.summary }}</p>
+        <p class="h6">Tags: {{ l.tags }}</p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+Last updated: {{ site.time | date_to_string }}
+
+<!--
 {% for l in site.data.links %}
 <div class="md-col-6 mb2">
   <a class="overflow-hidden bg-white border rounded" href="{{ l.url }}">
@@ -19,15 +33,4 @@ permalink: /links/
 {% endfor %}
 
 <hr>
-
-<ul>
-  {% for l in site.data.links %}
-    <li>
-      <a href="{{ l.url }}">{{ l.title }}</a>
-      <p>{{ l.summary }}</p>
-      <p class="h6">{{ l.tags }}</p>
-    </li>
-  {% endfor %}
-</ul>
-
-Last updated: {{ site.time | date_to_string }}
+-->
