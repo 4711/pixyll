@@ -33,6 +33,22 @@ permalink: /stats/
 
 <div id="barchart_material" style="width: 900px; height: 500px;"></div>
 
-<small>Last updated: {{ site.time | date: '%B %d, %Y %H %m' }}</small>
+{% assign m = site.time | date: "%-m" %}
+{% case m %}
+  {% when '1' %}Januar
+  {% when '2' %}Februar
+  {% when '3' %}M&auml;rz
+  {% when '4' %}April
+  {% when '5' %}Mai
+  {% when '6' %}Juni
+  {% when '7' %}Juli
+  {% when '8' %}August
+  {% when '9' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{% endcase %}
+
+<small>Last updated: {{ site.time | date: '%B %d, %Y %H:%m' }}</small>
 
 
