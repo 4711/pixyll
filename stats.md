@@ -50,6 +50,6 @@ permalink: /stats/
   {% when '12' %}{% assign month = 'Dezember' %}
 {% endcase %}
 
-<small>Last updated: {{ day }} {{ month }} {{ site.time | date: ', %H:%m' }} </small>
+<small>Last updated: {{ day }} {{ month }} {{ site.time | date: '{{ day }}., %H:%m' }} </small>
 
 
