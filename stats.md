@@ -27,6 +27,9 @@ permalink: /stats/
           //curveType: 'fuction',
           bar: { groupWidth: '75%' },
           isStacked: true,
+          animation: {
+            startup: true
+          },
           legend: { position: 'bottom' }
         };
 
@@ -59,6 +62,9 @@ Last updated: {{ site.time }}
             subtitle: 'Sales, Expenses, and Profit: 2014-2017',
           },
           isStacked: true,
+          animation: {
+            startup: true
+          },
           bars: 'horizontal' // Required for Material Bar Charts.
         };
 
