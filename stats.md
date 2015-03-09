@@ -4,6 +4,7 @@ title: Firewall Traffic
 permalink: /stats/
 ---
 
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
       google.load("visualization", "1.1", {packages:["bar"]});
       google.setOnLoadCallback(drawChart);
