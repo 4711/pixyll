@@ -16,8 +16,7 @@ permalink: /stats/
 
         var options = {
           chart: {
-            title: 'Firewall Traffic',
-            subtitle: 'Daily Traffic',
+            title: 'Daily Traffic'
           },
           isStacked: true,
           animation: {
