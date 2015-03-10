@@ -8,7 +8,7 @@ permalink: /links/
   {% for l in site.data.links %}
     <li>
       <a href="{{ l.url }}">{{ l.title | markdownify }}
-        <p>{{ l.summary }}</p>
+        <p>{{ l.summary | markdownify }}</p>
         <p class="h6">Tags: {{ l.tags }}</p>
       </a>
     </li>
