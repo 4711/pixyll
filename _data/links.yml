@@ -18,5 +18,9 @@
   url: http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html
   tags: angularjs tutorial 
   summary: AngularJS redefines how to build front-end applications. Instead of being afraid to cross the boundary between HTML and JavaScript, it takes it head-on. 
+- title: How we manage products. How we make things beautiful. How we write code. How we dance.
+  url: https://github.com/sparkbox/how_to
+  tags: productivity
+  summary: Some brief How To's
 
 
