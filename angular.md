@@ -4,8 +4,6 @@ title: AngularJS Test
 permalink: /angular/
 ---
 
-# Angular Test
-
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
 
 <script>
@@ -18,6 +16,8 @@ function MyCtrl($scope) {
   $scope.name = 'Clark Kent';
 }
 </script>
+
+## Should print name
 
 <div ng-controller="MyCtrl">
     Hello, [[name]]
