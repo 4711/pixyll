@@ -2,6 +2,7 @@
 layout: page
 title: AngularJS Test
 permalink: /angular/
+angular: true
 ---
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
@@ -19,9 +20,7 @@ function MyCtrl($scope) {
 
 ## Should print name
 
-<div ng-app="myApp">
-  <div ng-controller="MyCtrl">
-    Hello, [[name]]
-  </div>
+<div ng-controller="MyCtrl">
+  Hello, [[name]]
 </div>
 
