@@ -6,7 +6,7 @@ angular: true
 ---
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
   
-<div ng-app="four04App" ng-controller="PostListCtrl">
+<div ng-app="myApp" ng-controller="MyCtrl">
 
 <script>
   var myApp = angular.module('myApp', [], function($interpolateProvider) {
@@ -19,11 +19,8 @@ angular: true
   }
   </script>
 
-  ## Should print name
-
-  <div ng-controller="MyCtrl">
-    Hello, [[name]]
-  </div>
+## Should print name
+Hello, [[name]]
 
 </div>
 
