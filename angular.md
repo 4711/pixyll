@@ -4,6 +4,7 @@ title: AngularJS Test
 permalink: /angular/
 angular: true
 ---
+
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
   
 <div ng-app="myApp" ng-controller="MyCtrl">
@@ -17,7 +18,7 @@ angular: true
   function MyCtrl($scope) {
     $scope.name = 'Clark Kent';
   }
-  </script>
+</script>
 
 ## Should print name
 
