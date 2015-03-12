@@ -2,10 +2,10 @@
  - { logday: 2015-03-04, pkt_in: 48591917, pkt_out: 45529613, gb_in: 0031.64, gb_out: 0016.02 }
  - { logday: 2015-03-05, pkt_in: 70154596, pkt_out: 60350081, gb_in: 0042.81, gb_out: 0017.32 }
  - { logday: 2015-03-06, pkt_in: 77634632, pkt_out: 69447054, gb_in: 0040.47, gb_out: 0063.78 }
- - { logday: 2015-03-07, pkt_in: 66246369, pkt_out: 67385194, gb_in: 0067.67, gb_out: 0016.32 }
+ - { logday: 2015-03-07, pkt_in: 66494514, pkt_out: 67572781, gb_in: 0067.76, gb_out: 0016.35 }
  - { logday: 2015-03-08, pkt_in: 29245642, pkt_out: 27959051, gb_in: 0010.49, gb_out: 0013.05 }
  - { logday: 2015-03-09, pkt_in: 50194939, pkt_out: 45450414, gb_in: 0034.13, gb_out: 0016.04 }
- - { logday: 2015-03-10, pkt_in: 82626560, pkt_out: 100184936, gb_in: 0052.16, gb_out: 0046.42 }
- - { logday: 2015-03-11, pkt_in: 60512833, pkt_out: 63238924, gb_in: 0058.95, gb_out: 0020.12 }
- - { logday: 2015-03-12, pkt_in: 2469335, pkt_out: 2059829, gb_in: 0001.90, gb_out: 0001.03 }
+ - { logday: 2015-03-10, pkt_in: 82635796, pkt_out: 100193053, gb_in: 0052.16, gb_out: 0046.42 }
+ - { logday: 2015-03-11, pkt_in: 60826170, pkt_out: 63551946, gb_in: 0058.98, gb_out: 0020.16 }
+ - { logday: 2015-03-12, pkt_in: 3441415, pkt_out: 2969983, gb_in: 0002.44, gb_out: 0001.53 }
 
