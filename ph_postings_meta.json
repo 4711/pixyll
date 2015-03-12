@@ -8,6 +8,6 @@ layout: null
      "href": "{{ post.url }}", 
      "words": "{% for tag in post.tags %} {{tag | downcase }}{% endfor %}{% for category in post.categories %} {{category | downcase | replace: ' ', '_'}}{% endfor %}"
   },{% endfor %}
-  null
+  {}
 ]
 }
