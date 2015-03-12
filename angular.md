@@ -19,7 +19,8 @@ function MyCtrl($scope) {
 
 ## Should print name
 
-<div ng-controller="MyCtrl">
+
+<div ng-app ng-controller="MyCtrl">
     Hello, [[name]]
 </div>
 
