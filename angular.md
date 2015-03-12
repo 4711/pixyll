@@ -20,6 +20,7 @@ angular: true
   </script>
 
 ## Should print name
+
 Hello, [[name]]
 
 </div>
