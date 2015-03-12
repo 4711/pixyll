@@ -5,7 +5,7 @@ permalink: /angular/
 angular: true
 ---
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
 
 <script>
 var myApp = angular.module('myApp', [], function($interpolateProvider) {
