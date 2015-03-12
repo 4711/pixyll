@@ -1,11 +1,20 @@
+---
+layout: page
+title: AngularJS Test
+permalink: /angular/
+---
+
 # Angular Test
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+
 <script>
 var myApp = angular.module('myApp', [], function($interpolateProvider) {
   $interpolateProvider.startSymbol('[[');
   $interpolateProvider.endSymbol(']]');
-});function MyCtrl($scope) {
+});
+
+function MyCtrl($scope) {
   $scope.name = 'Clark Kent';
 }
 </script>
