@@ -15,11 +15,6 @@ The page you're after isn't hosted here
 
 
 <script>
-  var myApp = angular.module('myApp', [], function($interpolateProvider) {
-    $interpolateProvider.startSymbol('[[');
-    $interpolateProvider.endSymbol(']]');
-  });
-
     angular.module('four04App',[]).filter('matchesQuery', function(){
         return function(items, query){
             var alternate = query.replace(/ /g,"_").toLowerCase();
@@ -46,9 +41,11 @@ The page you're after isn't hosted here
 
 <p>Subset to posts containing these words: <input ng-model="query"></p>
 <p>Posts matching above query:</p>
-<ul>
-    <li ng-repeat="post in posts | matchesQuery:query">
-      <a ng-href="{{ site.baseurl }}/{{post.href}}">[[ post.title ]]</a> 
-    </li>
-</ul>
+    <ul>
+        <li ng-repeat="post in posts | matchesQuery:query">
+          { % raw %} <!-- hack for blog entry - extra space -->
+          <a ng-href="{{post.href}}">{{ post.title }}</a> 
+          { % endraw %} <!-- same hack here too -->
+        </li>
+    </ul>
 </div>
