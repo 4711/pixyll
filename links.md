@@ -4,16 +4,13 @@ title: Interesting Links
 permalink: /links/
 ---
 
-<ul>
-  {% for l in site.data.links %}
-    <li>
-      <a href="{{ l.url }}">{{ l.title | markdownify }}
-        <p>{{ l.summary | markdownify }}</p>
-        <p class="h6">Tags: <i>{{ l.tags | join: ', ' }}</i></p>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+% for l in site.data.links %}
+<a href="{{ l.url }}">
+    <h2>{{ l.title }}</h2>
+    <p>{{ l.summary | markdownify }}</p>
+    <p class="h6">Tags: <i>{{ l.tags | join: ', ' }}</i></p>
+</a>
+% endfor %}
 
 Last updated: {{ site.time | date_to_string }}
 
