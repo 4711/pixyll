@@ -4,7 +4,7 @@ title: Interesting Links
 permalink: /links/
 ---
 
-% for l in site.data.links %}
+{% for l in site.data.links %}
 <a href="{{ l.url }}">{{ l.title }}>
     <p>{{ l.summary }}</p>
     <p class="h6">Tags: <i>{{ l.tags | join: ', ' }}</i></p>
