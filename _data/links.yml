@@ -24,5 +24,10 @@
   summary: "* How we manage products. 
   * How we make things beautiful. 
   * How we write code. How we dance."
+- title: Common .htaccess Redirects
+  url: https://gist.github.com/ScottPhillips/1721489
+  tags: [apache, cheat sheet]
+  summary: Common .htaccess Redirects 
+
 
 
