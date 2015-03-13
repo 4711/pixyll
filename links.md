@@ -9,6 +9,7 @@ permalink: /links/
     <p>{{ l.summary }}</p>
     <p class="h6">Tags: <i>{{ l.tags | join: ', ' }}</i></p>
 </a>
+<hr>
 {% endfor %}
 
 Last updated: {{ site.time | date_to_string }}
