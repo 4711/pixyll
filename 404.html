@@ -15,7 +15,7 @@ The page you're after isn't hosted here
 
 
 <script>
- angular.module('four04App',[]).filter('matchesQuery', function(){
+    angular.module('four04App',[]).filter('matchesQuery', function(){
         return function(items, query){
             var alternate = query.replace(/ /g,"_").toLowerCase();
             var lcQuery = query.toLowerCase();
