@@ -1,26 +1,26 @@
 - title: The three levels of HTML5 usage
   url: https://mathiasbynens.be/notes/html5-levels
-  tags: html5
+  tags: [html5]
   summary: An introductory talk on HTML5 for the latest Adobe User Group Belgium 
 - title: Everything you wanted to know about Jekyll date formatting but were afraid to ask.
   url: http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-  tags: jekyll liquid 
+  tags: [jekyll, liquid]
   summary: These examples provide tested code snippets for displaying several date formats on a Jekyll site.
 - title: Jekyll Date Formatting Examples
   url: https://github.com/peter-murach/github
-  tags: github api ruby
+  tags: [github, api, ruby]
   summary: A Ruby client for the official GitHub API.
 - title: An Embeddable JavaScript Markdown Editor
   url: http://epiceditor.com/
-  tags: javascript markdown editor
+  tags: [javascript, markdown, editor]
   summary: EpicEditor is an embeddable JavaScript Markdown editor with split fullscreen editing, live previewing, automatic draft saving, offline support, and more. 
 - title: AngularJS - from beginner to expert in 7 steps
   url: http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html
-  tags: angularjs tutorial 
+  tags: [angularjs, tutorial]
   summary: AngularJS redefines how to build front-end applications. Instead of being afraid to cross the boundary between HTML and JavaScript, it takes it head-on. 
 - title: "Some **brief** How To's"
   url: https://github.com/sparkbox/how_to
-  tags: productivity
+  tags: [productivity]
   summary: "* How we manage products. 
   * How we make things beautiful. 
   * How we write code. How we dance."
