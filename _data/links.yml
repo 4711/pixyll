@@ -21,13 +21,11 @@
 - title: "Some **brief** How To's"
   url: https://github.com/sparkbox/how_to
   tags: [productivity]
-  summary: "* How we manage products. 
-  * How we make things beautiful. 
-  * How we write code. How we dance."
-- title: Common .htaccess Redirects
+  summary: How we manage products. 
+- title: "Common .htaccess Redirects"
   url: https://gist.github.com/ScottPhillips/1721489
   tags: [apache, cheat sheet]
-  summary: Fantastic .htaccess cheatsheet, a la Gist...
+  summary: "Fantastic .htaccess cheatsheet, a la Gist..."
 
 
 
