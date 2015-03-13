@@ -9,7 +9,7 @@ permalink: /links/
     <li>
       <a href="{{ l.url }}">{{ l.title | markdownify }}
         <p>{{ l.summary | markdownify }}</p>
-        <p class="h6">Tags: {{ l.tags | join: ', ' }}</p>
+        <p class="h6"><i>Tags: {{ l.tags | join: ', ' }}</i></p>
       </a>
     </li>
   {% endfor %}
