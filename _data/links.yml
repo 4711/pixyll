@@ -26,6 +26,10 @@
   url: https://gist.github.com/ScottPhillips/1721489
   tags: [apache, cheat sheet]
   summary: "Fantastic .htaccess cheatsheet, a la Gist..."
+- title: "Integrating Flickr and Jekyll"
+  url: http://www.marran.com/tech/integrating-flickr-and-jekyll
+  tags: [jekyll flickr]
+  summary: "Walk through the steps for getting authenticated with Flickr and writing a plug-in to show that data"
 
 
 
