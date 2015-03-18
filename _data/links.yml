@@ -1,42 +1,52 @@
 - title: The three levels of HTML5 usage
   url: https://mathiasbynens.be/notes/html5-levels
   tags: [html5]
+  added: 2015-03-01
   summary: An introductory talk on HTML5 for the latest Adobe User Group Belgium 
 - title: Everything you wanted to know about Jekyll date formatting but were afraid to ask.
   url: http://alanwsmith.com/jekyll-liquid-date-formatting-examples
   tags: [jekyll, liquid]
+  added: 2015-03-02
   summary: These examples provide tested code snippets for displaying several date formats on a Jekyll site.
 - title: Jekyll Date Formatting Examples
   url: https://github.com/peter-murach/github
   tags: [github, api, ruby]
+  added: 2015-03-03
   summary: A Ruby client for the official GitHub API.
 - title: An Embeddable JavaScript Markdown Editor
   url: http://epiceditor.com/
   tags: [javascript, markdown, editor]
-  summary: EpicEditor is an embeddable JavaScript Markdown editor with split fullscreen editing, live previewing, automatic draft saving, offline support, and more. 
+  added: 2015-03-03
+summary: EpicEditor is an embeddable JavaScript Markdown editor with split fullscreen editing, live previewing, automatic draft saving, offline support, and more. 
 - title: AngularJS - from beginner to expert in 7 steps
   url: http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html
   tags: [angularjs, tutorial]
+  added: 2015-03-07
   summary: AngularJS redefines how to build front-end applications. Instead of being afraid to cross the boundary between HTML and JavaScript, it takes it head-on. 
 - title: "Some **brief** How To's"
   url: https://github.com/sparkbox/how_to
   tags: [productivity]
+  added: 2015-03-14
   summary: How we manage products. 
 - title: "Common .htaccess Redirects"
   url: https://gist.github.com/ScottPhillips/1721489
   tags: [apache, cheat sheet]
+  added: 2015-03-16
   summary: "Fantastic .htaccess cheatsheet, a la Gist..."
 - title: "Integrating Flickr and Jekyll"
   url: http://www.marran.com/tech/integrating-flickr-and-jekyll
   tags: [jekyll flickr]
+  added: 2015-03-17
   summary: "Walk through the steps for getting authenticated with Flickr and writing a plug-in to show that data"
 - title: "Awesome Awesomeness"
   url: https://github.com/bayandin/awesome-awesomeness
   tags: [learning]
+  added: 2015-03-18
   summary: "A curated list of amazingly awesome awesomeness"
 - title: "CSS animation resources"
   url: https://bufferwall.com/blogs/2015-03-16-css-animation-resources-you-should-bookmark-right-now-/
   tags: [css]
+  added: 2015-03-18
   summary: "CSS animation resources you should bookmark right now !"
 
 
