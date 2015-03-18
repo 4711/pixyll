@@ -8,6 +8,7 @@ permalink: /links/
 <a href="{{ l.url }}"><h3>{{ l.title }}</h3>
     <p>{{ l.summary }}</p>
     <p class="h6">Tags: <i>{{ l.tags | join: ', ' }}</i></p>
+    <p class="h6">Added: <i>{{ l.date }}</i></p>
 </a>
 <hr>
 {% endfor %}
