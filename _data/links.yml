@@ -30,6 +30,14 @@
   url: http://www.marran.com/tech/integrating-flickr-and-jekyll
   tags: [jekyll flickr]
   summary: "Walk through the steps for getting authenticated with Flickr and writing a plug-in to show that data"
+- title: "Awesome Awesomeness"
+  url: https://github.com/bayandin/awesome-awesomeness
+  tags: [learning]
+  summary: "A curated list of amazingly awesome awesomeness"
+- title: "CSS animation resources"
+  url: https://bufferwall.com/blogs/2015-03-16-css-animation-resources-you-should-bookmark-right-now-/
+  tags: [css]
+  summary: "CSS animation resources you should bookmark right now !"
 
 
 
