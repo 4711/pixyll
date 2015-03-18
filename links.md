@@ -5,7 +5,7 @@ permalink: /links/
 ---
 
 {% assign links = (site.data.links | sort: 'added') %}
-{% for l in links %}
+{% for l in links reversed %}
 <a href="{{ l.url }}"><h3>{{ l.title }}</h3>
     <p>{{ l.summary }}</p>
     <p class="h6">Added: {{ l.added }}<span class="right">Tags: {{ l.tags | join: ', ' }}</span></p>
