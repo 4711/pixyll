@@ -4,7 +4,8 @@ title: Interesting Links
 permalink: /links/
 ---
 
-{% for l in site.data.links reversed %}
+{% assign links = (site.data.links | sort: 'added') %}
+{% for l in links %}
 <a href="{{ l.url }}"><h3>{{ l.title }}</h3>
     <p>{{ l.summary }}</p>
     <p class="h6">Added: {{ l.added }}<span class="right">Tags: {{ l.tags | join: ', ' }}</span></p>
