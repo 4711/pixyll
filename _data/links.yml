@@ -15,9 +15,9 @@
   summary: A Ruby client for the official GitHub API.
 - title: An Embeddable JavaScript Markdown Editor
   url: http://epiceditor.com/
-  tags: [javascript, markdown, editor]
   added: 2015-03-03
-summary: EpicEditor is an embeddable JavaScript Markdown editor with split fullscreen editing, live previewing, automatic draft saving, offline support, and more. 
+  tags: [javascript, markdown, editor]
+  summary: EpicEditor is an embeddable JavaScript Markdown editor with split fullscreen editing, live previewing, automatic draft saving, offline support, and more. 
 - title: AngularJS - from beginner to expert in 7 steps
   url: http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html
   tags: [angularjs, tutorial]
@@ -48,6 +48,3 @@ summary: EpicEditor is an embeddable JavaScript Markdown editor with split fulls
   tags: [css]
   added: 2015-03-18
   summary: "CSS animation resources you should bookmark right now !"
-
-
-
