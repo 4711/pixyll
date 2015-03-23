@@ -53,5 +53,10 @@
   tags: [bootstrap]
   added: 2015-03-18
   summary: "Beautiful and inspiring uses of Bootstrap"
+- title: AniCollection
+  url: http://anicollection.github.io/#/
+  tags: [css animation]
+  added: 2015-03-23
+  summary: "AniCollection is the easiest way to find, use and share animations"
 
   
