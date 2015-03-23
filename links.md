@@ -7,10 +7,10 @@ permalink: /links/
 {% assign links = (site.data.links | sort: 'added') %}
 {% for l in links reversed %}
 <a href="{{ l.url }}"><h3>{{ l.title }}</h3>
-<p>{{ l.summary }}</p>
 {% if l.thumb %}
-<img src="{{ site.baseurl }}/images/{{ l.thumb }}"></img>
+<img  class="right" src="{{ site.baseurl }}/images/{{ l.thumb }}"></img>
 {% endif %}
+<p>{{ l.summary }}</p>
 <p class="h6">Added: {{ l.added }}<span class="right">Tags: {{ l.tags | join: ', ' }}</span></p>
 </a>
 <hr class="clearfix">
