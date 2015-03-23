@@ -8,9 +8,9 @@ permalink: /links/
 {% for l in links reversed %}
 <a href="{{ l.url }}"><h3>{{ l.title }}</h3>
     <p>{{ l.summary }}</p>
-    {% if l.thumb %}
-    <img src="{{ site.baseurl }}/{{ l.thumb }}"></img>
-    {% endif %}
+{% if l.thumb %}
+<img src="{{ site.baseurl }}/{{ l.thumb }}"></img>
+{% endif %}
     <p class="h6">Added: {{ l.added }}<span class="right">Tags: {{ l.tags | join: ', ' }}</span></p>
 </a>
 <hr class="clearfix">
