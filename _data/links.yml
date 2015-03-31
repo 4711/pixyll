@@ -59,5 +59,10 @@
   added: 2015-03-23
   summary: "AniCollection is the easiest way to find, use and share animations"
   thumb: anicollection_thumb.jpg
+- title: Awesome Ruby
+  url: http://awesome-ruby.com/#awesome-ruby-data-visualization
+  tags: [ruby]
+  added: 2015-03-31
+  summary: "A collection of awesome Ruby libraries, tools, frameworks and software. The essential Ruby to build modern Apps and Web Apps."
 
   
