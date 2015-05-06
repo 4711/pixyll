@@ -118,62 +118,38 @@ Zusätzlich dazu kann auch das Element `cite` verwendet werden, um ein Werk zu m
 
 #### Einfaches Blockzitat
 
-{% blockquote %}
-Dies ist ein Zitat.
-{% endblockquote %}
 
-{% highlight html %}
-{% raw %}{% blockquote %}
 Dies ist ein Zitat.
-{% endblockquote %}{% endraw %}
-{% endhighlight %}
+
+
+
 
 
 #### Zitat aus einem gedruckten Werk
 
-{% blockquote J.R.R. Tolkien, Der Herr der Ringe %}
+
 Drei Ringe den Elben, hoch im Licht. Sieben den Zwergen in ihren Hallen aus Stein. Den Sterblichen, ewig dem Tode verfalln: Neun. Ein Ring sie zu knechten, sie alle zu finden, ins Dunkel zu treiben und ewig zu binden. Im Lande Mordor, wo die Schatten drohn.
-{% endblockquote %}
 
-{% blockquote Douglas Adams, The Hichhikers Guide to the Galaxy %}
+
+
 Flying is learning how to throw yourself at the ground and miss.
-{% endblockquote %}
 
-{% highlight html %}
-{% raw %}{% blockquote Douglas Adams, The Hichhikers Guide to the Galaxy %}
-…
-{% endblockquote %}{% endraw %}
-{% endhighlight %}
+
+
 
 
 #### Zitat von Twitter
 
-{% blockquote @allanbranch https://twitter.com/allanbranch/status/90766146063712256 %}
-Over the past 24 hours I've been reflecting on my life & I've realized only one thing. I need a medieval battle axe.
-{% endblockquote %}
-
-{% highlight html %}
-{% raw %}{% blockquote @allanbranch https://twitter.com/allanbranch/status/90766146063712256 %}
-…
-{% endblockquote %}{% endraw %}
-{% endhighlight %}
 
 
 #### Zitat aus einem Artikel im Internet
 
-{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
+Island Marketing %}
 Every interaction is both precious and an opportunity to delight.
-{% endblockquote %}
 
-{% blockquote Winston Churchill http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206a Speech to the House of Commons %}
+
 Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-{% endblockquote %}
 
-{% highlight html %}
-{% raw %}{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
-…
-{% endblockquote %}{% endraw %}
-{% endhighlight %}
 
 
 ### Pullquote
@@ -208,15 +184,6 @@ Wenn man sehr lange Absätze schreibt, … {" Wichtig anzumerken ist … und nic
 
 Manchmal möchte man einen kurzen Zitatblock verwenden, der nicht im Text vorkommt, oder besonders prägnant ist und daher zentriert stehen soll. Wenn ein Attribute `lang` mitgegeben wird, werden automatisch die korrekten Zitatzeichen verwendet (für Deutsch, Englisch und Japanisch).
 
-<blockquote lang="en" class="pullquote">
-  <p>No time for pessimism.</p>
-</blockquote>
-
-{% highlight html %}
-<blockquote lang="en" class="pullquote">
-  <p>No time for pessimism.</p>
-</blockquote>
-{% endhighlight %}
 
 
 ### Inline-Zitate
