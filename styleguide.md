@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Styleguide"
+permalink: /styleguide/
 description: "Der Styleguide dieser Seite"
 ---
 
