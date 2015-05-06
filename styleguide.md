@@ -222,12 +222,10 @@ Luke führte weiter aus, <q>Und sie nannte ihn einen <q>total blöd-aussehenen I
 
 Gedichte und Verse sollen so geschrieben werden, wie sie vom Autor gedacht waren und außerdem in der Seite zentriert stehen. Dafür gibt es einen Stil:
 
-{% verse Lewis Carroll, Jabberwocky (1832-98) %}
 ‘Twas brillig, and the slithy toves
 Did gyre and gimble            in the wabe;
 All mimsy     were     the borogoves,
 And       the mome     raths            outgrabe.
-{% endverse %}
 
 {% highlight html %}
 {% raw %}{% verse Lewis Carroll, Jabberwocky (1832-98) %}
@@ -241,10 +239,8 @@ And       the mome     raths            outgrabe.
 
 ## Randbemerkungen
 
-{% aside %}
 <h4 class="aside__headline">Überschrift</h4>
 <p>Dies ist eine Randbemerkung.</p>
-{% endaside %}
 
 Manchmal möchte man mitten im Text etwas erklären, was nicht direkt zum Text gehört, aber das zum Verständnis des Textes beitragen kann. Diese Randbemerkungen wurden im Print üblicherweise in den Rand der Publikation gedruckt und hatten eine kleinere Schrift. Manchmal kann man diese aber auch im Text selbst stehen sehen, und sie werden durch eine andere Farbe oder einen Rand als Nebenbemerkung gekennzeichnet. Auf dieser Website stehen die Randbemerkungen (`aside`) im Rand und zwar im rechten Rand. Als Überschrift (wenn nötig) sollte minimal eine `h4` verwendet werden.
 
