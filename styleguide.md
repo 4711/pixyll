@@ -2,7 +2,6 @@
 layout: default
 title: "Styleguide"
 description: "Der Styleguide dieser Seite"
-permalink: "/styleguide/"
 ---
 
 Dieses Dokument ist der Styleguide für diese Website.
