@@ -156,9 +156,7 @@ Many forms of Government have been tried, and will be tried in this world of sin
 
 #### Pullquote (rechts)
 
-{% pullquote %}
 Wenn man sehr lange Absätze schreibt, ist es hilfreich ein herausgeschobenen Zitatblock zu verwenden, der einen wichtigen Teil des Abschnitts markiert. Einige benutzen vielleicht lieber viele Überschriften, was auch meistens gut funktioniert, aber weniger gut für lange Prosa geeignet ist. {" Wichtig anzumerken ist, dass die Pullquotes nur visuelle Präsentation sind und nicht zweimal im Code erscheinen. "} Deshalb werden CSS-Techniken angewandt, um das Zitat ein weiteres mal sichtbar zu machen. In Octopress kann man dieses sehr einfach mit dem Pullquote-Tag erreichen.
-{% endpullquote %}
 
 {% highlight html %}
 {% raw %}{% pullquote %}
@@ -169,9 +167,7 @@ Wenn man sehr lange Absätze schreibt, … {" Wichtig anzumerken ist … und nic
 
 #### Pullquote (links)
 
-{% pullquote left %}
 Wenn man sehr lange Absätze schreibt, ist es hilfreich ein herausgeschobenen Zitatblock zu verwenden, der einen wichtigen Teil des Abschnitts markiert. Einige benutzen vielleicht lieber viele Überschriften, was auch meistens gut funktioniert, aber weniger gut für lange Prosa geeignet ist. {" Wichtig anzumerken ist, dass die Pullquotes nur visuelle Präsentation sind und nicht zweimal im Code erscheinen. "} Deshalb werden CSS-Techniken angewandt, um das Zitat ein weiteres mal sichtbar zu machen. In Octopress kann man dieses sehr einfach mit dem Pullquote-Tag erreichen.
-{% endpullquote %}
 
 {% highlight html %}
 {% raw %}{% pullquote left %}
