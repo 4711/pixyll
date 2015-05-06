@@ -9,7 +9,7 @@ summary: Setting up a custom domain with GitHub Pages
 If you're using a custom domain to redirect your GitHub Pages site, you must create and commit a 
 CNAME file to your GitHub Pages repository that contains the custom domain.
 
-[See here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/)
+[See Github Help](https://help.github.com/articles/adding-a-cname-file-to-your-repository/)
 
 ## Configure a CNAME record with your DNS provider
 
@@ -31,4 +31,4 @@ dig www.example.com +nostats +nocomments +nocmd
 # github.map.fastly.net.        22      IN      A       199.27.76.133
 ```
 
-[See here](https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/)
+[See Github Help](https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/)
