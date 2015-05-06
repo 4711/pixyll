@@ -715,9 +715,6 @@ Ein einfaches Bild:
 
 ## Abbildungen
 
-{% figure "Dies ist der Untertitel, die <code>figcaption</code>." %}
-  <img src="http://lorempixel.com/680/408/fashion/" alt="Example image">
-{% endfigure %}
 
 {% highlight html %}
 {% raw %}{% figure "Dies ist der Untertitel, die <code>figcaption</code>." %}
@@ -727,9 +724,6 @@ Ein einfaches Bild:
 
 ### Abbildung mit erzwungender Umrandung
 
-{% figure image-figure--border %}
-  <img src="http://lorempixel.com/680/408/nature/" alt="Example image">
-{% endfigure %}
 
 {% highlight html %}
 {% raw %}{% figure image-figure--border %}
@@ -739,10 +733,6 @@ Ein einfaches Bild:
 
 ### Abbildung mit entfernter Umrandung
 
-{% figure image-figure--noborder %}
-  <img src="http://lorempixel.com/680/408/food/" alt="Example image">
-{% endfigure %}
-
 {% highlight html %}
 {% raw %}{% figure image-figure--noborder %}
   <img src="http://lorempixel.com/680/408/food/" alt="Example image">
@@ -751,9 +741,6 @@ Ein einfaches Bild:
 
 ### Abbildung mit Schatten
 
-{% figure image-figure--shadow %}
-  <img src="http://lorempixel.com/680/408/animals/" alt="Example image">
-{% endfigure %}
 
 {% highlight html %}
 {% raw %}{% figure image-figure--shadow %}
@@ -767,7 +754,6 @@ Es ist auch möglich Videos einzubetten, und zwar als natives HTML5, direkt von 
 
 ### Native HTML5-Videos
 
-{% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 640 420 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}
 
 {% highlight html %}
 {% raw %}{% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 640 420 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}{% endraw %}
@@ -775,7 +761,6 @@ Es ist auch möglich Videos einzubetten, und zwar als natives HTML5, direkt von 
 
 ### YouTube-Videos
 
-{% youtube zY_D2ZZAZIo %}
 
 {% highlight html %}
 {% raw %}{% youtube zY_D2ZZAZIo %}{% endraw %}
@@ -783,7 +768,6 @@ Es ist auch möglich Videos einzubetten, und zwar als natives HTML5, direkt von 
 
 ### Vimeo-Videos
 
-{% vimeo 29413609 %}
 
 {% highlight html %}
 {% raw %}{% vimeo 29413609 %}{% endraw %}
